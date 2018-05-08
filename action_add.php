@@ -9,7 +9,7 @@ if (!isset($_POST['title']) || !isset($_POST['h1']) || !isset($_POST['paragraphe
     $sql = "INSERT INTO
                 `page`
             ( `id`,
-            `title`,
+              `title`,
               `h1`,
               `paragraphe`,
               `span-class`,
@@ -22,7 +22,6 @@ VALUES
 (NULL, :title, :h1, :paragraphe ,:spanclass, :spantext, :imgalt, :imgsrc, :navtitle, :slug)
 ;";
 $stmt = $conn->prepare($sql);
-$stmt->bindValue(':id', $_POST['id']);
 $stmt->bindValue(':title', $_POST['title']);
 $stmt->bindValue(':h1', $_POST['h1']);
 $stmt->bindValue(':paragraphe', $_POST['paragraphe']);
