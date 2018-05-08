@@ -1,5 +1,5 @@
 <?php
-require_once "includes/init_db.php";
+require_once "init_db.php";
 /**
  * @ref http://php.net/manual/fr/function.http-response-code.php
  */
@@ -58,6 +58,7 @@ $row=$stmt->fetch(PDO::FETCH_ASSOC);
     </div>
     <img class="img-thumbnail" alt="<?=$row['img-alt']?>" src="img/<?=$row['img-src']?>" data-holder-rendered="true">
 </div>
+
 <?php
 include "includes/footer.php";
 ?>

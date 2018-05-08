@@ -1,0 +1,134 @@
+.body {
+    background-image: url(../image/bgadmin.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+.read {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    display: table-cell;
+    border: thin solid #72443e;
+    border-radius: 5px;
+}
+
+.th, .td{
+    border: thin solid #72443e;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 15px;
+}
+
+.th {
+    background-color: rgba(126, 75, 68, 0.7);
+    font-family: "workRegular";
+}
+
+.td {
+    background: rgba(255, 255, 255, 0.7);
+    font-family: "karlaRegular";
+    color: #191919;
+}
+
+.modifybtn {
+    border-radius: 10px;
+    margin-bottom: 3px;
+    background-color: #947071;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.deletebtn {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #d76265;
+}
+
+.index {
+    position: absolute;
+    top :40px;
+    left:20px;
+}
+
+.addLink {
+    font-family: "workMedium";
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: solid #72443e 2px;
+    border-radius: 5px;
+    padding: 3px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.marginBottom {
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "workBold";
+    src: url("../fonts/Work_Sans/WorkSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "workMedium";
+    src: url("../fonts/Work_Sans/WorkSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "workRegular";
+    src: url("../fonts/Work_Sans/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "karlaBold";
+    src: url("../fonts/Karlas/Karla-Bold.ttf");
+}
+
+@font-face {
+    font-family: "karlaRegular";
+    src: url("../fonts/Karla/Karla-Regular.ttf");
+}
+
+@font-face {
+    font-family: "karlaItalic";
+    src: url("../fonts/Karla/Karla-Italic.ttf");
+}
+
+a {
+    text-decoration: none;
+    color: #191919;
+}
